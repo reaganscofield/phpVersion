@@ -18,9 +18,9 @@ class CreateProfilesTable extends Migration
             $table->integer('idUser');
             $table->string('handle');
             $table->string('status');
-            $table->json('experience');
-            $table->json('education');
-            $table->json('social');
+            $table->string('experience');
+            $table->string('education');
+            $table->string('social');
             $table->timestamps(); 
         });
     }
